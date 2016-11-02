@@ -1,13 +1,24 @@
+
+body {
+	text-align: center;
+	background-color: #222222;
+}
+
+h3 {
+	color: #CCFFCB;
+}
+
+
+
 #cover {
 	color: white;
 	text-align: center;
 	text-shadow: 1px 1px 5px black;
-	padding-top: 100px;
+	padding-top: 80px;
 	background-image: url(images/ballon.jpg);
 	background-size: cover;
 	height: 300px; 
 }
-
 
 .navbar-transparent {
   background-color: rgba(0, 0, 0, 0.7);
@@ -33,4 +44,33 @@
 
 .vertical-spacer {
 	height: 1em;
+}
+
+.space {
+	height: 5em;
+}
+
+#mc_embed_signup_scroll {
+	background-color: #CCFFCB;
+}
+
+#MyFooter {
+	color: rgb(230,230,230);
+	background-color: black;
+	padding-top: 1em;
+  	padding-bottom: 1em;
+  	font-size: 10px;
+}
+
+#MyFooter a {
+	font-size: 2em;
+	color: rgb(220,220,220);
+}
+
+#MyFooter a:hover {
+	color: white;
+}
+
+.thumbnail {
+	background-color: #DDE0BD;
 }
